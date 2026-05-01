@@ -10,7 +10,7 @@ load_dotenv()
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 CHAT_ID = os.getenv("ADMIN_CHAT_ID")
 
-PRICES_FILE = "tg/saved_prices.json"
+PRICES_FILE = "saved_prices.json"
 
 PRODUCTS = [
     {
